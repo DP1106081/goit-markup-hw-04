@@ -4,7 +4,7 @@ body {
   background-color: #ffffff;
 }
 
-/* reset */
+/* ------------------------reset------------------------------------ */
 img {
   display: block;
   max-width: 100%;
@@ -36,7 +36,7 @@ a {
   padding: 0 15px;
   margin: 0 auto;
 }
-/* header */
+/* --------------------------------header--------------------------- */
 .page-header {
   border-bottom: 1px solid #e7e9fc;
   box-shadow: 0 1px 6px 0 rgba(46, 47, 66, 0.08),
@@ -126,7 +126,7 @@ a {
   color: #404bbf;
 }
 
-/*section order-service */
+/*-----------------------section order-service------------------------ */
 
 .order-service {
   background-color: #2e2f42;
@@ -140,6 +140,8 @@ a {
   margin: o auto;
   padding-top: 188px;
   padding-bottom: 188px;
+  /* position: fixed;
+  top: 0; */
 }
 .hero-container {
   display: flex;
@@ -188,7 +190,7 @@ a {
   background-color: #404bbf;
 }
 
-/* features */
+/* ------------------------features------------------------------- */
 
 .visually-hidden {
   position: absolute;
@@ -223,6 +225,17 @@ a {
   margin-bottom: 8px;
 }
 
+.features-icon-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
+  width: 264px;
+  height: 112px;
+  background-color: #f4f4fd;
+  margin-bottom: 8px;
+}
 /*section our team */
 
 .our-team-container {
@@ -320,7 +333,7 @@ a {
   fill: #f4f4fd;
 }
 
-/* section portfolio */
+/* --------------------------------section portfolio------------------ */
 
 .page-portfolio {
   padding-top: 120px;
