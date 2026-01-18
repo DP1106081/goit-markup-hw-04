@@ -80,11 +80,7 @@ a {
   margin-right: 76px;
 }
 
-.nav-link.studio-line {
-  position: relative;
-}
-
-.nav-link.studio-line::after {
+.nav-link::after {
   content: "";
   position: absolute;
   left: 0;
@@ -94,9 +90,21 @@ a {
   display: inline-block;
   background-color: #404bbf;
   border-radius: 2px;
+  opacity: 0;
+  transition:
+    opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transform: scaleX(0);
+}
+.nav-link:hover::after,
+.nav-link:focus:after,
+.nav-link.current::after {
+  opacity: 1;
+  transform: scaleX(100%);
 }
 
 .nav-link {
+  position: relative;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
