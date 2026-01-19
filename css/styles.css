@@ -425,10 +425,10 @@ a {
   display: flex;
   align-items: baseline;
   justify-content: flex-start;
+  gap: 120px;
 }
 .footer-logo {
   display: inline-block;
-  /* padding-bottom: 16px; */
 }
 .footer-text {
   width: 264px;
@@ -446,9 +446,6 @@ a {
   color: #f4f4fd;
 }
 
-.social-media-container {
-  margin-left: 120px;
-}
 .text-social-media {
   font-weight: 500;
   line-height: 1.5;
