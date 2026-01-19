@@ -103,7 +103,7 @@ a {
 .nav-link:focus::after,
 .nav-link.current::after {
   opacity: 1;
-  transform: scaleX(100%);
+  transform: scaleX(1);
 }
 
 .nav-link {
@@ -143,6 +143,8 @@ a {
 
 .order-service {
   background-color: #2e2f42;
+  background-size: cover;
+  background-position: center;
   background-image:
     linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
     url(../images/bg-hero.jpg);
@@ -421,7 +423,7 @@ a {
 }
 .footer-container {
   display: flex;
-  align-items: flex-start;
+  align-items: baseline;
   justify-content: flex-start;
 }
 .footer-logo {
